@@ -1,0 +1,10 @@
+version: '3'
+services:
+  21cc:
+    build: .
+    image: 21cc:latest
+    volumes:
+      - .:/root/repo
+    privileged: true
+    stdin_open: true
+    tty: true
