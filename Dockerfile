@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     clang \
     clang-3.8 \
+    doxygen \
     libglib2.0-dev \
     lldb \
     pkg-config \
