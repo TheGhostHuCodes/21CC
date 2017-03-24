@@ -1,3 +1,5 @@
+*.pyc
+*.swp
 Ch01_SetYourselfUpForEasierCompilation/erf/erf
 Ch01_SetYourselfUpForEasierCompilation/erf/erf.dSYM/
 Ch01_SetYourselfUpForEasierCompilation/hello/hello
