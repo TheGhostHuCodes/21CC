@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     clang \
     clang-3.8 \
     doxygen \
+    graphviz \
     libglib2.0-dev \
     lldb \
     pkg-config \
