@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ ! -e moby ] ; then
+    curl http://www.gutenberg.org/cache/epub/2701/pg2701.txt    \
+    | gunzip -c                                                 \
+    | sed -e '1,/START OF THIS PROJECT GUTENBERG/d'             \
+    | sed -e '/End of Project Gutenberg/,$d'                    \
+    > moby
+fi
