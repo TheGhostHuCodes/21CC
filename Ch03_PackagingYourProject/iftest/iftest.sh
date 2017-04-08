@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if test ! -e a_test_file; then
   echo test file had not existed
   touch a_test_file
