@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     doxygen \
     graphviz \
     libglib2.0-dev \
+    libreadline-dev \
     lldb \
     pkg-config \
     python-lldb-3.8 \
