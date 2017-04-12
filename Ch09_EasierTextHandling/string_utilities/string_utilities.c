@@ -38,7 +38,7 @@ ok_array* ok_array_new(char* instring, const char* delimiters) {
 
 /* Frees the original string, becasue strtok_r mangled it, so it isn't useful
  * for any other purpose. */
-void ok_arra_free(ok_array* ok_in) {
+void ok_array_free(ok_array* ok_in) {
     if (ok_in == NULL) {
         return;
     }
@@ -55,7 +55,7 @@ int main() {
     assert(o->length == 5);
     assert(!strcmp(o->elements[1], "reader"));
     assert(!strcmp(o->elements[4], "text"));
-    ok_arra_free(o);
+    ok_array_free(o);
     printf("OK.\n");
 }
 #endif
